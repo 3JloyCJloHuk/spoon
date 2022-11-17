@@ -1,0 +1,69 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Libre+Franklin:wght@100;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        title Spoon
+    body
+        header.header
+            .container
+                .header__top
+                    img(class="logo" src="img/logo.svg" alt="logo")
+                    img(class="header__humburger" src="img/humbruger.svg" alt="humburger")
+                    nav(class="header__menu")
+                        img(class="header__menu-close" src="img/path.svg" alt="path")
+                        ul.header__list
+                            li.header__item
+                                a(class="header__item-link" href="#") Features
+                            li.header__item
+                                a(class="header__item-link" href="#") Premium
+                            li.header__item
+                                a(class="header__item-link" href="#") Pricing
+                            li.header__item
+                                a(class="header__item-link" href="#") About
+                        .header__square
+                        button.header__button-sign Sign in
+                        button.header__button-started Get Started
+                .header__content
+                    h1.header__title Propel your business.
+                    p.header__description Propel comes with everything you need to get your business rolling.
+                    button(class="button-green") Get Started
+        img(class="humburger" src="img/humburger.png" alt="humburger")
+        footer.footer
+            .container
+                .footer__inner
+                    .footer__owner-info
+                        img(class="logo" src="img/logo.svg" alt="spoon")
+                        p.footer__owner © 2018 Spoon Inc, All rights reserved.
+                    nav.footer__menu
+                        ul.footer__list
+                            li.footer__item
+                                a(class="footer__item-link" href="#") Features
+                            li.footer__item
+                                a(class="footer__item-link" href="#") About
+                            li.footer__item
+                                a(class="footer__item-link" href="#") Image License Info
+                            li.footer__item
+                                a(class="footer__item-link" href="#") Premium
+                            li.footer__item
+                                a(class="footer__item-link" href="#") Blog
+                            li.footer__item
+                                a(class="footer__item-link" href="#") Powered by Webflow
+                            li.footer__item
+                                a(class="footer__item-link" href="#") Pricing
+                            li.footer__item
+                                a(class="footer__item-link" href="#") Contact
+                        .footer__social
+                            a(class="footer__social-link" href="#")
+                                img(class="footer__social-img" src="img/facebook.svg" alt="facebook")
+                            a(class="footer__social-link" href="#")
+                                img(class="footer__social-img" src="img/twitter.svg" alt="twitter")
+                            a(class="footer__social-link" href="#")
+                                img(class="footer__social-img" src="img/instagram.svg" alt="instagram")
+        script(src="js/humburger.js") 
